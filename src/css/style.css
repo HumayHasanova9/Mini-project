@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Catamaran,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none; 
+ }
+header{
+    width: 100%;
+    height: 100px;
+    background-color:white;
+    color: black;
+}
+.about-us-background{
+    width: 100%;
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 48px;
+    font-size: 50px;
+    letter-spacing: 3.7px;
+    font-weight: bold;
+    font-family: Catamaran,sans-serif;
+    /* text-align: center; */
+    background-size: 125%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    background-image:url(/src/images/about-title-img1.jpg);
+}
+.about-us-background div{
+    position: scroll;
+}
+#about-depot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.depot-all{
+    width:84%;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.clicks{
+    width: 85%;/*ASAGIDA DEYIR PRODUCT HISSEDINDE*/
+    display: flex;
+    justify-content:space-between;
+}
+.click{
+    color: #fff;
+    background-color: #080808;
+    border: 1px solid #080808;
+    padding: 6px 50px;
+    font-size: 12px;
+    line-height: 47px;
+    font-weight: 700;
+    letter-spacing: .1em
+}
+.whitec{
+    background-color: white;
+    color: black;
+    border: 1px solid #e8e8e8;
+}
+.depot-text-text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #929292;
+    margin: 40px 0;
+}
+.depot-image{
+    width: 50%;
+}
+.depot-image >img{
+    width: 100%;
+    height: 100%;
+}
+.depot-content{
+    width:48%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.depot-text-link{
+    display: flex;
+    align-items: center;
+}
+.depot-text-link p,.depot-text-link i{
+    line-height: 30px;
+    letter-spacing: .15em;
+    font-weight: 700;
+    color: #929292;
+    font-size: 12px;
+}
+.what-they-all h3:nth-child(1){
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #080808;
+    margin-top:20px;
+}
+.what-they-all p:nth-child(2){
+    width: 52%;
+    line-height: 30px;
+    color: #929292;
+    font-weight: 300;
+    margin: 30px 0 10px 0;
+    text-align: center;
+}
+.what-they-all h5:nth-child(3){
+    font-size: 14px;
+    line-height: 22px;
+    color: #080808;
+    margin: 20px 0 -13px 0;
+}
+.what-they-all h6:nth-child(4){
+    font-weight: 400;
+    letter-spacing: .1em;
+    font-size: 12px;
+    line-height: 18px;
+    color: #080808;
+    margin: 20px 0;
+}
+#what-they-say{
+     background-color: #fafafa;
+}
+.what-they-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.black-all{
+    background-color: black;
+    color: #fafafa;
+  
+}
+.black-main{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+.the-smallest{
+    height: 0.07px;
+    background-color:rgba(206,206,206,.2);;
+}
+.part-of-black{
+    display: flex;
+    flex-direction: column;
+    /*yuxaridaki 2 setir olmasa da alt-alta dusmeli idi axi,black-main displaydi deye avtomatik onun hundurluyunu goturdu?*/
+}
+.part-of-black>h4:nth-child(1){
+    margin: 15px 0;
+}
+.same-a{
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fafafa;
+    margin:4px 0 5px 0 ;
+}
+.part-of-black h4:nth-child(1){
+    letter-spacing: .1em;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.black-small{
+    border-top: 1px solid rgba(206,206,206,.2);
+    padding:  12px 0 12px 90px;
+}
+.black-small>a>span{
+    color: #929292;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/*input html hissesi*/
+#header-id{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+.header-div{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+.header-left{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-word{
+    /* color: #929292; rengi burada verende islemedi asagida isledi*/
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: .1em;
+    position: relative;
+}
+.left-word a:nth-child(1){
+    color: #080808;
+}
+.header-right{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+.header-right-after{
+    width: 13%;
+}
+.header-center{
+    width: 15%;
+    height: 20px;
+}
+.header-center img{
+    width: 50%;
+    height: 100%;
+}
+.header-right a,.header-right span{
+    font-size: 12px;
+    line-height: 1em;
+    color: #080808 ;
+    font-weight: 700;
+    text-decoration: none;
+}
+.right-main-div span:nth-child(2){
+    font-size: 12px;
+    line-height: 1;
+    clear: both;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: #929292;
+}
+.right-main-div span{
+    margin: 0 4px;
+}
+.fa-heart,.fa-user,.fa-magnifying-glass{
+    font-size: 13px;
+}
+.fa-bars{
+    font-size: 16px;
+}
+.unvisible-div a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #a5a5a5;
+}
+.home-div{
+    width: 180px;
+    height: 400px;
+    padding: 30px;
+}
+.shop-div,.elements-div{
+    width: 85%;
+    margin-left: -125px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px 30px 30px;
+}
+.dif-a{
+    color: #fff !important;
+    font-size: 12px !important;
+    line-height: 1.1em !important;
+    font-weight: 700;
+    letter-spacing: .1em ;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.pages-div{
+    margin-left: -30px;
+    padding: 30px 60px 30px 30px;
+}
+.elements-div{
+    display: flex;
+    margin-left: -295px;
+}
+.unvisible-div{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: black;
+    margin-top: 40px;
+}
+.left-main-div:hover .shop-div{
+    display: flex;
+}
+.left-main-div:hover .elements-div{
+    display: flex;
+}
+.left-main-div:hover .home-div{
+    display: block;
+}
+.left-main-div:hover .pages-div{
+    display: block;
+}
+.left-main-div:hover .port-div{
+    display: block;
+}
+.left-main-div:hover .blog-div{
+    display: block;
+}
+.port-div,.blog-div{
+    padding:20px 15px 20px 20px ;
+}
+.left-word-after{
+    margin-right: 40px;
+}
+#product-main-id,#about-us{
+    margin-top: 100px;
+}
+#product-main-id{
+    padding: 30px 120px 0 120px;
+    background-color: #fafafa;
+}
+.product-main-center{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.product-main-center-words{
+    width: 40%;
+}
+.product-main-center-images{
+    display: flex;
+    justify-content: space-around;
+    width: 48.5%;
+}
+.prod-small-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.prod-big-image{
+    width: 505px;
+    height: 505px;
+}
+.prod-big-image img{
+    width: 100%;
+    height: 100%;
+}
+.prod-s-img{
+    width: 100px;
+    height: 115px;
+    padding-right: 10px;
+}
+.prod-s-img img{
+   width: 100%;
+   height: 100%;
+}
+.checked {
+    color: #ebbc00;
+}
+.prod-main-cen-words-name h3{
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    margin: 0 0 7px;
+    color: #080808;
+}
+.prod-main-cen-words-price{
+    color: #080808;
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 41px;
+    margin-top: -5px;
+    line-height: 1;
+}
+.fa-star{
+    font-family: ElegantIcons;
+    font-size: 12px;
+    line-height: 1.1em;
+}
+.prod-main-cen-words-rate{
+    margin-bottom: 16px;
+}
+.prod-main-cen-words-desc{
+    margin-bottom: 37px;
+}
+.prod-main-cen-words-wishlist{
+    margin-bottom: 50px;
+}
+.prod-main-cen-words-rate span:nth-child(6),.prod-main-cen-words-desc p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #929292;
+}
+.prod-main-cen-words-rate span:nth-child(6){
+    font-size: 12px;
+}
+.prod-main-cen-words-wishlist span{
+    font-size: 12px;
+    color: #080808;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.prod-main-cen-words-wishlist i{
+    font-size: 12px;
+    color: #080808;
+    padding-right: 10px;
+    line-height: 19px
+}
+.prod-main-cen-words-quan-and-cart{
+    margin-bottom: 37px;
+    display: flex;
+    height: 50px;
+}
+.quan{
+    border: 1px solid #e1e1e1;
+    line-height: 50px;
+    padding: 0 10px 0 16px
+}
+.quan span:nth-child(1){
+    font-size: 13px;
+    color: #929292;
+    line-height: 50px;
+    font-weight: 300;
+    margin-right: 50px;
+}
+.quan i{
+    color: #929292;
+    font-size: 13px;
+    margin: 0 5px;
+}
+.quan span:nth-child(3){
+    font-size: 16px;
+    color: #929292;
+}
+.add-to-cart{
+    background-color: black;
+    padding: 7px 46px;
+    color: white;
+    line-height: 30px;
+    letter-spacing: .15em;
+    font-weight: 700;
+    font-size: 12px;
+    border: 2px solid transparent;
+}
+.product-main-top{
+    margin: 0 0 80px 40px;
+    
+}
+.product-main-top a,.product-main-top span{
+    color: #929292;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px
+}
+.prod-main-cen-words-end span{
+    color: #080808;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.prod-main-cen-words-end a{
+    color: #929292;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.product-main-bottom{
+    /* width: 60%; */
+    margin-top: 100px;
+    margin-left: 40px;
+    display: flex;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #323232;
+    background-color: #fafafa;
+}
+.prod-main-bottom-click{
+    background-color: pink;
+    padding: 16px 38px;
+    border: 1px solid #e1e1e1;
+    border-left-width: 0;
+    border-bottom: 0;
+}
+.product-main-bottom div:nth-child(1){
+    background-color: black;
+    color: white;
+}
+.product-main-bottom div:nth-child(2),.product-main-bottom div:nth-child(3){
+    background-color: #fafafa;
+    color: black;
+}
+.header-div-after{
+    padding: 0 50px;
+}
+.description-main-div h2{
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 20px 0 18px;
+    letter-spacing: 3.7px;
+    color: #080808;
+}
+.description-main-div p{
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #929292;
+}
+.description-main-div{
+    padding: 60px 50px 60px 160px;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+#related-products-id{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 60px 0;
+}
+.related-main-div{
+    width: 80%;
+}
+.related-products{
+    display: flex;
+    justify-content: space-between;
+}
+.related-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.5%;
+}
+.related-prod-img,.related-prod-img img{
+    width: 100%;
+}
+.related-prod-img{
+    height: 70%;
+}
+.related-prod-img img{
+    height: 100%;
+}
+.related-main-div h2{
+    margin: 32px 0;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #929292;
+    letter-spacing: 3.7px;
+}
+.related-prod-h5 a{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #080808;
+    margin-top:25px;
+    display: inline-block;
+}
+.not-checked{
+    color: #ebbc00;
+}
+.related-prod-price span {
+    color: #999999;
+    font-size: 14px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    margin-right: 8px;
+    text-align: center;
+}
+.shop-div-after{
+    margin-left: -500px;
+}
+.elements-div-after{
+    margin-left: -750px;
+}
